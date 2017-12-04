@@ -22,3 +22,16 @@ Team is currently focused on learning React. The necessary resources are listed 
 
 Our readme will be developed in accordance with our development cycle, and it will hopefully reflect all changes of scope and functionality as we continue.
 
+
+<h2> 1.2 </h2>
+
+Development Cycle:
+
+All commits will be pushed to development, with hopefully at least one reviewer.
+
+If there are merge conflicts please resolve carefully.
+
+Current actions will be to rebase to development, with master being protected from being force pushed.
+
+
+
