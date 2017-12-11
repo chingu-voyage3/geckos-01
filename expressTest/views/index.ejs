@@ -1,0 +1,35 @@
+<% include partials/header %>
+<div class="container">
+    <h1>p1xt Guide</h1>
+        <div class="row">
+            <div class="col-md-4">
+            <h3>CURRENT UNIT</h3>
+            <ul>
+                <li>Read a book</li>
+                <li>Do this course</li>
+                <li>More stuff...</li>
+            </ul>
+            </div>
+            <div class="col-md-4">
+            <h3>AVAILABLE QUIZZES</h3>
+            <ul>
+                <li>Closures Quiz</li>
+                <li>ES6 Quiz</li>
+            </ul>
+            </div>
+            <div class="col-md-4">
+            <h3>RESOURCES</h3>
+            <ul>
+            <% resources.forEach(function(resource) { %>
+                <li> <%= resource %></li>
+            <% }); %>
+            </ul>
+            <form action="/resource" method="POST">
+                <input type="text" name="resource" placeholder="Resource to Add">
+                <button>Add Resource</button>
+            </form>
+            </div>
+        </div>
+</div>
+
+<% include partials/footer %>
