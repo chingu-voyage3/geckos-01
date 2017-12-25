@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import HeadingNav from './components/heading-nav';
+import Milestones from './components/milestones';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import './App.css';
@@ -10,6 +11,7 @@ class App extends Component {
 		return (
 			<div className="App">
 				<HeadingNav />
+				<Milestones />
 			</div>
 		);
 	}
