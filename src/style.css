@@ -36,6 +36,63 @@
 	color: #fdfdfd;
 }
 
+/*GUIDE STYLING*/
+h3 {
+	color: #336199;
+	text-transform: uppercase;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+#progress-heading {
+	color: slategrey;
+	text-align: left;
+}
+
+
+/*PROGRESS BAR STYLING*/
+.progress {
+	color: #fdfdfd;
+	margin-bottom: 3em;
+}
+
+/*MODULE CONTENT STYLING*/
+#module-content {
+	background-color: none;
+	border: 1px solid #336199;
+	border-radius: 10px;
+	color: #336199;
+	padding: 5px;
+}
+
+/*MILESTONE SIDEBAR STYLING*/
+.milestones {
+	border: 1px solid #336199;
+	border-radius: 10px;
+	padding: 10px 0;
+}
+
+.milestones h4 {
+	color: #336199;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.milestones a {
+	text-align: left;
+}
+
+#heading {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.down-arrow {
+	position: absolute;
+	right: 20px;
+	top: 12px;
+}
+
 /*MEDIA QUERIES*/
 @media (min-width: 768px) {
 
@@ -55,6 +112,15 @@
 		padding-top: 30px;
 		padding-bottom: 25px;
 	}
-
-
 }
+
+/*This is a temporary styling
+#progress-bar > .filled {
+	background: linear-gradient(to right, #336199 35%, #fdfdfd 35%);
+}
+*/
+#module-content {
+	height: 50em;
+}
+
+/*End Temporary Styling*/
